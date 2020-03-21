@@ -1,9 +1,9 @@
 {
-  "name": "nodeshift",
-  "version": "6.0.1",
+  "name": "boris-nodeshift",
+  "version": "0.0.1",
   "description": "Plugin for running openshift deployments",
   "bin": {
-    "nodeshift": "./bin/nodeshift"
+    "nodeshift": "bin/nodeshift"
   },
   "scripts": {
     "lint": "eslint bin/* lib/**/*.js test/*-test.js test/**/*-test.js index.js",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "nodeshift/nodeshift.git"
+    "url": "git+https://github.com/nodeshift/nodeshift.git"
   },
   "keywords": [],
   "author": "",
@@ -79,5 +79,12 @@
     "standard-version": "^7.0.0",
     "tap-spec": "^5.0.0",
     "tape": "~4.13.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
